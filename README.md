@@ -1,6 +1,6 @@
 # E-commerce Growth & Retention (Power BI) | Olist Dataset
 
-## ES — Resumen
+## Resumen
 Proyecto de portfolio en **Power BI** para analizar un e-commerce de punta a punta: **crecimiento**, **retención (cohortes)**, **performance logística (SLA)** y **satisfacción del cliente (reviews)**.  
 Incluye **modelado en esquema estrella**, **definición de KPIs**, **transformaciones en SQL** y **controles de calidad de datos**.
 
