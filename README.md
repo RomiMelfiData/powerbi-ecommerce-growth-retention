@@ -73,8 +73,3 @@ Manual download and placement under `data_raw/`.
 
 ## Capturas / Screenshots
 (Agregar imágenes en `images/` y linkearlas acá cuando el dashboard esté listo.)
-
-## Próximos pasos
-- Definir el modelo estrella (fact + dims) y el grano de cada tabla.
-- Implementar cohortes de retención y métricas logísticas.
-- Documentar el diccionario de métricas y reglas de calidad.
