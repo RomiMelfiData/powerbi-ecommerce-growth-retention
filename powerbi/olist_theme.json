@@ -1,0 +1,16 @@
+{
+  "name": "Olist-inspired (Blue + Warm Accent)",
+  "dataColors": [
+    "#0C29D0",
+    "#364EF7",
+    "#0A1F9C",
+    "#7DA2FF",
+    "#ABC6FF",
+    "#CE7B50",
+    "#E6EEFF",
+    "#6B7280"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#0C29D0"
+}
