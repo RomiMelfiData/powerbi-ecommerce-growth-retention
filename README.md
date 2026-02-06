@@ -53,6 +53,7 @@ images/growth_drivers_mix.png.png
 - `images/03_retention_cohorts.png`  
 - `images/04_customer_segments_rfm.png`
 - images/retention_cohorts.png.png
+- images/customer_segments_rfm.png
 
 ---
 
@@ -108,3 +109,4 @@ Build an executive + analytical dashboard to answer:
 images/executive_overview.png
 images/growth_drivers_mix.png.png
 images/retention_cohorts.png.png
+images/customer_segments_rfm.png
