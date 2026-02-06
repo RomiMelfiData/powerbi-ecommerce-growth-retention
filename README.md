@@ -47,9 +47,7 @@ Construir un dashboard ejecutivo y operativo que responda preguntas clave:
 3) *(Opcional, si tenés PBIX local)* actualizar rutas/orígenes y refrescar el modelo  
 
 ## Capturas / Screenshots
-*(Una vez que subas imágenes a `/images`, linkealas acá)*  
-images/executive_overview.png
-images/growth_drivers_mix.png.png
+
 - ![Executive Overview](images/retention_cohorts.png.png)
 - ![Executive Overview](images/customer_segments_rfm.png)
 - ![Executive Overview](images/retention_cohorts.png.png)
@@ -106,7 +104,8 @@ Build an executive + analytical dashboard to answer:
 3) *(Optional if you have a local PBIX)* update paths/sources and refresh
 
 ## Screenshots
-images/executive_overview.png
-images/growth_drivers_mix.png.png
-images/retention_cohorts.png.png
-images/customer_segments_rfm.png
+- ![Executive Overview](images/retention_cohorts.png.png)
+- ![Executive Overview](images/customer_segments_rfm.png)
+- ![Executive Overview](images/retention_cohorts.png.png)
+- ![Executive Overview](images/customer_segments_rfm.png)
+
