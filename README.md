@@ -41,6 +41,13 @@ Construir un dashboard ejecutivo y operativo que responda preguntas clave:
 - `data_processed/` → datos procesados (ignorado por git)
 - `sql/` → carpeta reservada para scripts (opcional)
 
+## Documentación
+- [Project brief](docs/00_brief.md)
+- [Data dictionary](docs/data_dictionary.md)
+- [DAX measures](docs/dax_measures.md)
+- [Bitácora de decisiones](docs/Bitácora de decisiones.docx)
+
+
 ## Cómo reproducir (pasos)
 1) Descargar el dataset Olist desde Kaggle y descomprimirlo en `data_raw/`  
 2) Abrir el reporte desde el link publicado (Power BI Service)  
