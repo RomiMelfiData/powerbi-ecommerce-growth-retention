@@ -51,7 +51,8 @@ Construir un dashboard ejecutivo y operativo que responda preguntas clave:
 images/executive_overview.png
 images/growth_drivers_mix.png.png
 - `images/03_retention_cohorts.png`  
-- `images/04_customer_segments_rfm.png`  
+- `images/04_customer_segments_rfm.png`
+- images/retention_cohorts.png.png
 
 ---
 
@@ -106,3 +107,4 @@ Build an executive + analytical dashboard to answer:
 ## Screenshots
 images/executive_overview.png
 images/growth_drivers_mix.png.png
+images/retention_cohorts.png.png
