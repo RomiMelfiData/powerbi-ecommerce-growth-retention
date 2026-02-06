@@ -47,10 +47,13 @@ Construir un dashboard ejecutivo y operativo que responda preguntas clave:
 3) *(Opcional, si tenés PBIX local)* actualizar rutas/orígenes y refrescar el modelo  
 
 ## Capturas / Screenshots
-
+### Executive Overview
 - ![Executive Overview](images/retention_cohorts.png.png)
+### Growth Drivers & Category Mix
 - ![Executive Overview](images/customer_segments_rfm.png)
+### Retención y Recompra (Cohortes)
 - ![Executive Overview](images/retention_cohorts.png.png)
+### Segmentación de Clientes
 - ![Executive Overview](images/customer_segments_rfm.png)
 
 ---
@@ -104,8 +107,12 @@ Build an executive + analytical dashboard to answer:
 3) *(Optional if you have a local PBIX)* update paths/sources and refresh
 
 ## Screenshots
+### Executive Overview
 - ![Executive Overview](images/retention_cohorts.png.png)
+### Growth Drivers & Category Mix
 - ![Executive Overview](images/customer_segments_rfm.png)
+### Retención y Recompra (Cohortes)
 - ![Executive Overview](images/retention_cohorts.png.png)
+### Segmentación de Clientes
 - ![Executive Overview](images/customer_segments_rfm.png)
 
