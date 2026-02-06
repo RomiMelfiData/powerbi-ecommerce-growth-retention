@@ -49,7 +49,7 @@ Construir un dashboard ejecutivo y operativo que responda preguntas clave:
 ## Capturas / Screenshots
 *(Una vez que subas imágenes a `/images`, linkealas acá)*  
 images/executive_overview.png
-- `images/02_growth_drivers_mix.png`  
+images/growth_drivers_mix.png.png
 - `images/03_retention_cohorts.png`  
 - `images/04_customer_segments_rfm.png`  
 
@@ -105,3 +105,4 @@ Build an executive + analytical dashboard to answer:
 
 ## Screenshots
 images/executive_overview.png
+images/growth_drivers_mix.png.png
