@@ -1,36 +1,42 @@
-# E-commerce Growth & Retention Command Center (Olist)
+# E-commerce Growth & Retention Dashboard (Olist)
 
 ## Objetivo
-Construir un dashboard ejecutivo y operativo para entender crecimiento, retención, experiencia de entrega y satisfacción del cliente.
+Construir un dashboard ejecutivo y analítico en Power BI para entender el desempeño de un e-commerce de punta a punta, con foco en:
+**crecimiento (GMV/Orders/AOV)**, **mix de categorías**, **retención por cohortes** y **segmentación de clientes (RFM)**.
 
 ## Dataset
-Olist Brazilian E-Commerce (Kaggle). Fuente: Kaggle (descarga manual).
+**Olist Brazilian E-Commerce Public Dataset (Kaggle)** (descarga manual).  
+Los datos crudos no se suben al repositorio (ver `data_raw/` en `.gitignore`).
+
+## Alcance (qué incluye el proyecto)
+- Modelado en **esquema estrella** (facts + dims).
+- Transformaciones en **Power Query** y cálculo de medidas en **DAX**.
+- Análisis por período (filtros de fecha) y por categoría.
+- Retención basada en cohortes (mes de primera compra) y meses desde la cohorte.
+- Segmentación RFM orientada a priorización comercial (win-back vs fidelización).
 
 ## Preguntas de negocio (MVP)
-1) ¿Cómo evolucionan pedidos, GMV/ventas y AOV en el tiempo?
-2) ¿Qué cohortes retienen mejor y peor? (retención por mes de primera compra)
-3) ¿Dónde se está rompiendo la experiencia logística? (entrega a tiempo, demoras)
-4) ¿Qué categorías/sellers impulsan crecimiento y cuáles generan problemas (cancelaciones/reviews)?
+1) ¿Cómo evolucionan **Orders**, **GMV** y **AOV** mes a mes?
+2) ¿Qué categorías explican el volumen y cómo cambia el **mix** en el tiempo?
+3) ¿Qué tan alta/baja es la **recompra** y cómo se comporta la **retención por cohortes**?
+4) ¿Cómo se distribuyen los clientes por **recencia** y dónde está el **valor (GMV)** por segmento?
 
-## KPIs (definiciones iniciales)
-- Orders: cantidad de pedidos (order_id)
-- Customers: clientes únicos (customer_unique_id)
-- GMV: suma de payment_value
-- AOV: GMV / Orders
-- Repeat rate: % clientes con >=2 pedidos
-- On-time delivery rate: % entregas en o antes de fecha estimada
-- Avg delivery delay (days): delivered - estimated
+## KPIs (definiciones)
+- **Orders:** cantidad de pedidos (DISTINCTCOUNT `order_id`)
+- **Customers (unique):** clientes únicos (DISTINCTCOUNT `customer_unique_id`)
+- **GMV:** suma de `fact_orders[payment_total]`
+- **AOV:** GMV / Orders
+- **Returning Rate:** % de clientes que compran al menos una vez después de su primera compra (cohortes)
+- **Retention % (Cohorts):** retención por `MonthsSinceCohort` (M0, M1, M2…)
 
-## Páginas del reporte (MVP)
-1) Executive Overview
-2) Growth
-3) Retention (Cohorts + RFM)
-4) Logistics
-5) Reviews / Satisfaction
+## Páginas del reporte
+1) **Executive Overview**
+   - KPIs principales, tendencia temporal, lectura rápida por categoría.
+2) **Growth Drivers & Category Mix**
+   - Drivers de GMV y cambios del mix Top categorías en el tiempo.
+3) **Retención y Recompra (Cohortes)**
+   - Matriz de cohortes y Returning Rate.
+4) **Segmentación de Clientes (RFM)**
+   - Top customers, recency segments, GMV por segmento.
 
-## Entregables en GitHub
-- README con contexto + preguntas + hallazgos
-- Capturas del dashboard (images/)
-- SQL (staging/marts + checks)
-- Diccionario de métricas (docs/01_metrics.md)
-- Diagrama del modelo (docs/02_model.png)
+
