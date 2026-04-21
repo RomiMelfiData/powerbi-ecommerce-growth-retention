@@ -55,7 +55,7 @@ Construir un dashboard ejecutivo y operativo que responda preguntas clave:
 * [Project brief](docs/00_brief.md)
 * [Data dictionary](docs/data_dictionary.md)
 * [DAX measures](docs/dax_measures.md)
-* Bitácora de decisiones: `docs/Bitácora de decisiones.docx`
+* [Bitácora de decisiones](docs/bitacora_decisiones.md)
 
 ## Cómo reproducir
 
